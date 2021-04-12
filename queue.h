@@ -14,12 +14,14 @@ class Queue
     T remove();
 };
 
+// Comments #2
 template <typename T>
 void Queue<T>::add(T &elem)
 {
 
 }
 
+// Comments #3
 template <typename T>
 T Queue<T>::remove()
 {
