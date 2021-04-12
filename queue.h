@@ -5,7 +5,7 @@
 using namespace std;
 
 template <typename T>
-class queue
+class Queue
 {
   private:
   // members here
@@ -15,13 +15,13 @@ class queue
 };
 
 template <typename T>
-void Stack<T>::add(T &elem)
+void Queue<T>::add(T &elem)
 {
 
 }
 
 template <typename T>
-T Stack<T>::remove()
+T Queue<T>::remove()
 {
 
 }
